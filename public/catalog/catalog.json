@@ -20,7 +20,8 @@
           "alt": "Boneco de Neve Natalino Decorativo Minimalista para Mesa Estante Aparador Decoração de Natal Moderna  Copiar título"
         }
       ],
-      "wholesale": 24.9
+      "wholesale": 24.9,
+      "category": null
     },
     {
       "id": "08f73e2f-a974-47e3-8e2b-8a65b47d1e30",
@@ -41,7 +42,11 @@
           "alt": "Prateleira Infantil Panda Decorativa para Parede ou Mesa Porta Brinquedos e Miniaturas"
         }
       ],
-      "wholesale": 47.9
+      "wholesale": 47.9,
+      "category": {
+        "id": "ano-todo",
+        "title": "Recorrente"
+      }
     },
     {
       "id": "e94c31de-0819-4de7-94af-27c66a5300bb",
@@ -62,7 +67,11 @@
           "alt": "Árvore de Natal Decorativa Japandi Minimalista 15cm para Mesa Estante e Decoração Natalina"
         }
       ],
-      "wholesale": 16.9
+      "wholesale": 16.9,
+      "category": {
+        "id": "natal",
+        "title": "Natal"
+      }
     },
     {
       "id": "43e15569-3323-4c07-9f3b-cd8b3c6d0749",
@@ -83,7 +92,8 @@
           "alt": "Árvore de Natal Decorativa Caixa de Presente Verde para Chocolates e Pequenos Presentes"
         }
       ],
-      "wholesale": 33.9
+      "wholesale": 33.9,
+      "category": null
     },
     {
       "id": "fd449395-c5af-4e4e-a936-a45dd418bfbd",
@@ -104,7 +114,11 @@
           "alt": "Urso Polar Natalino de Tricô Branco com Gorro de Papai Noel Decoração de Natal"
         }
       ],
-      "wholesale": 29.9
+      "wholesale": 29.9,
+      "category": {
+        "id": "natal",
+        "title": "Natal"
+      }
     },
     {
       "id": "1b23127e-9616-4d22-8630-05d4ce1ab6a7",
@@ -125,7 +139,11 @@
           "alt": "Porta Guardanapo de Coelho Coelhinho de Mesa Pastel Decoração Páscoa Primavera Minimalista Enfeite Festas Jantar"
         }
       ],
-      "wholesale": 15.9
+      "wholesale": 15.9,
+      "category": {
+        "id": "natal",
+        "title": "Natal"
+      }
     },
     {
       "id": "13e7f0b1-766b-4e9d-a636-ee884f997180",
@@ -146,7 +164,11 @@
           "alt": "Coelhinhos porta-doces_Sem AMS_Multipeça"
         }
       ],
-      "wholesale": 36.9
+      "wholesale": 36.9,
+      "category": {
+        "id": "pascoa",
+        "title": "Páscoa"
+      }
     },
     {
       "id": "e339cae6-79a6-4d75-8e4d-0aed97383566",
@@ -159,7 +181,11 @@
           "alt": "Cesto de Coelhinho da Primavera"
         }
       ],
-      "wholesale": 19.9
+      "wholesale": 19.9,
+      "category": {
+        "id": "pascoa",
+        "title": "Páscoa"
+      }
     },
     {
       "id": "075526e1-996e-4018-a46c-f643fd63676f",
@@ -180,7 +206,11 @@
           "alt": "Vaso Decorativo de Páscoa com Coelhinhos – Decoração Moderna"
         }
       ],
-      "wholesale": 28.9
+      "wholesale": 28.9,
+      "category": {
+        "id": "dia-maes",
+        "title": "Dia das Mães"
+      }
     },
     {
       "id": "1d5f3f0c-53f9-4863-9688-c1842be58736",
@@ -201,7 +231,11 @@
           "alt": "Árvore de Natal Articulada Enfeite Flexível Brinquedo Antiestresse Decoração"
         }
       ],
-      "wholesale": 37.9
+      "wholesale": 37.9,
+      "category": {
+        "id": "natal",
+        "title": "Natal"
+      }
     },
     {
       "id": "50191ff7-1ff3-442f-b027-26d2e321be1d",
@@ -222,7 +256,11 @@
           "alt": "Enfeite de Natal Personalizado com Nome Pendente Decorativo para Árvore Enfeites de Natalinos Customizados para Família"
         }
       ],
-      "wholesale": 12.9
+      "wholesale": 12.9,
+      "category": {
+        "id": "natal",
+        "title": "Natal"
+      }
     },
     {
       "id": "41262e84-bdd4-4370-af47-1840e73177d9",
@@ -235,7 +273,11 @@
           "alt": "Enfeite de Natal Cantoneira Porta Vermelho Verde Decoração Moldura"
         }
       ],
-      "wholesale": 28.9
+      "wholesale": 28.9,
+      "category": {
+        "id": "natal",
+        "title": "Natal"
+      }
     },
     {
       "id": "b95024b5-df6d-4143-9f45-c616066e59dd",
@@ -268,7 +310,11 @@
           "alt": "Kit 6 Porta Copos Natalinos Papai Noel Com Suporte Decoração Mesa Posta"
         }
       ],
-      "wholesale": 32.9
+      "wholesale": 32.9,
+      "category": {
+        "id": "natal",
+        "title": "Natal"
+      }
     },
     {
       "id": "21a39d42-0f53-428d-a218-fff5ae21b84d",
@@ -289,7 +335,11 @@
           "alt": "Bandeja Papai Noel de Natal para Café da Manhã e Lanches Decorativa"
         }
       ],
-      "wholesale": 36.9
+      "wholesale": 36.9,
+      "category": {
+        "id": "natal",
+        "title": "Natal"
+      }
     },
     {
       "id": "bb189c20-07c7-4923-b236-2f16c1afe9db",
@@ -318,7 +368,11 @@
           "alt": "Porta Guardanapo Natalino Decorativo Enfeite de Mesa Decoração de Natal"
         }
       ],
-      "wholesale": 37.9
+      "wholesale": 37.9,
+      "category": {
+        "id": "natal",
+        "title": "Natal"
+      }
     },
     {
       "id": "dc0ee029-533d-42d4-acde-e42533a8b199",
@@ -371,7 +425,11 @@
           "alt": "Kit 10 Enfeites de Natal Harry Potter Decoração Árvore Hogwarts Nimbus 2000 Hermione Ron Trem"
         }
       ],
-      "wholesale": 61.9
+      "wholesale": 61.9,
+      "category": {
+        "id": "natal",
+        "title": "Natal"
+      }
     },
     {
       "id": "7f0a1377-bc57-42d5-adf0-04ca79d6a468",
@@ -400,7 +458,8 @@
           "alt": "Suporte Escorredor para Mamadeiras e Acessórios de Bebê – Moderno e Resistente"
         }
       ],
-      "wholesale": 70.9
+      "wholesale": 70.9,
+      "category": null
     },
     {
       "id": "be9a6f5c-c1fa-4af6-bd5a-81a5fd242c19",
@@ -421,7 +480,8 @@
           "alt": "Organizador para Estação de Café – Porta Copos e Sachês Moderno"
         }
       ],
-      "wholesale": 35.9
+      "wholesale": 35.9,
+      "category": null
     },
     {
       "id": "03f33fe9-ef71-47a0-a336-40a6ecc80adb",
@@ -442,7 +502,11 @@
           "alt": "Tigela Petisqueira Árvore de Natal Para Doces Decoração Natalina Mesa"
         }
       ],
-      "wholesale": 29.9
+      "wholesale": 29.9,
+      "category": {
+        "id": "natal",
+        "title": "Natal"
+      }
     },
     {
       "id": "d9b77936-d244-4e73-849e-d465baa938d2",
@@ -463,7 +527,11 @@
           "alt": "Porta Guardanapo Natalino Árvore de Natal Mesa Posta Decoração"
         }
       ],
-      "wholesale": 14.9
+      "wholesale": 14.9,
+      "category": {
+        "id": "natal",
+        "title": "Natal"
+      }
     },
     {
       "id": "3bd4dbde-7741-4fc1-af0f-5ac9464266ed",
@@ -484,7 +552,8 @@
           "alt": "Kit 5 Argolas para Guardanapos de Natal Decoração Mesa Natalina"
         }
       ],
-      "wholesale": 13.9
+      "wholesale": 13.9,
+      "category": null
     },
     {
       "id": "3520aaed-44e4-410d-95fc-e0df63af94f2",
@@ -509,7 +578,11 @@
           "alt": "Kit 4 Porta-Guardanapos Papai Noel Decoração Mesa de Natal"
         }
       ],
-      "wholesale": 14.9
+      "wholesale": 14.9,
+      "category": {
+        "id": "natal",
+        "title": "Natal"
+      }
     },
     {
       "id": "94150435-fbc1-4819-ae11-35fd67c744dc",
@@ -530,7 +603,11 @@
           "alt": "Porta-Guardanapo Árvore de Natal Decorativo para Mesa Natalina"
         }
       ],
-      "wholesale": 19.9
+      "wholesale": 19.9,
+      "category": {
+        "id": "natal",
+        "title": "Natal"
+      }
     }
   ]
 }

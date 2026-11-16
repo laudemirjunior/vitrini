@@ -3,6 +3,11 @@ export type PiecePhoto = {
   alt: string
 }
 
+export type PieceCategory = {
+  id: string
+  title: string
+}
+
 export type Piece = {
   id: string
   slug: string
@@ -10,6 +15,7 @@ export type Piece = {
   description: string
   photos: PiecePhoto[]
   wholesale: number | null
+  category: PieceCategory | null
 }
 
 export type Catalog = {

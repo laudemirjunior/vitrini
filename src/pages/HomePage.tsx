@@ -67,7 +67,19 @@ function Banner({ pieces }: { pieces: Piece[] }) {
 }
 
 export function HomePage({ pieces }: { pieces: Piece[] }) {
-  const count = pieces.length === 1 ? '1 peça' : `${pieces.length} peças`
+  const [categoryId, setCategoryId] = useState<string | null>(null)
+  const categories = [...pieces.reduce((map, piece) => {
+    if (!piece.category) return map
+    const current = map.get(piece.category.id)
+    map.set(piece.category.id, {
+      title: piece.category.title,
+      count: (current?.count ?? 0) + 1,
+    })
+    return map
+  }, new Map<string, { title: string, count: number }>()).entries()]
+    .sort((a, b) => b[1].count - a[1].count || a[1].title.localeCompare(b[1].title, 'pt-BR'))
+  const visible = categoryId ? pieces.filter((piece) => piece.category?.id === categoryId) : pieces
+  const count = visible.length === 1 ? '1 peça' : `${visible.length} peças`
   return (
     <>
       <section className="intro">
@@ -79,10 +91,22 @@ export function HomePage({ pieces }: { pieces: Piece[] }) {
         <p className="status">Nenhuma peça anunciada ainda.</p>
       ) : (
         <>
-          <Banner pieces={pieces} />
+          {categories.length > 0 ? (
+            <div className="cloud" role="group" aria-label="Categorias">
+              <button type="button" aria-pressed={categoryId === null} onClick={() => setCategoryId(null)}>
+                Todas<span className="cloud-count">{pieces.length}</span>
+              </button>
+              {categories.map(([id, category]) => (
+                <button key={id} type="button" aria-pressed={categoryId === id} onClick={() => setCategoryId(id)}>
+                  {category.title}<span className="cloud-count">{category.count}</span>
+                </button>
+              ))}
+            </div>
+          ) : null}
+          <Banner pieces={visible} />
           <p className="count">{count}</p>
           <ul className="grid">
-            {pieces.map((piece) => {
+            {visible.map((piece) => {
               const cover = piece.photos[0]
               return (
                 <li key={piece.id}>
