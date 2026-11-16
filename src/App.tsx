@@ -34,16 +34,20 @@ function useCatalog(): Load {
 
 function Shell({ children }: { children: ReactNode }) {
   return (
-    <div className="page">
+    <>
       <header className="top">
-        <Link to="/" className="brand">{site.name}</Link>
+        <div className="top-inner">
+          <Link to="/" className="brand">{site.name}</Link>
+        </div>
       </header>
-      <main>{children}</main>
-      <footer className="foot">
-        <p>{site.name} · {site.city}</p>
-        <p><a href={`mailto:${site.email}`}>{site.email}</a></p>
-      </footer>
-    </div>
+      <div className="page">
+        <main>{children}</main>
+        <footer className="foot">
+          <p>{site.name} · {site.city}</p>
+          <p><a href={`mailto:${site.email}`}>{site.email}</a></p>
+        </footer>
+      </div>
+    </>
   )
 }
 
